@@ -69,7 +69,7 @@ void createContact(AddressBook *addressBook)
         printf("--");
     }
         printf("\nEnter the name :");
-        scanf(" %s",addressBook->contacts[addressBook->contactCount].name);
+        scanf(" %[^\n]",addressBook->contacts[addressBook->contactCount].name);
   
 L1:     numvalid(temp);
         
