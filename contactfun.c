@@ -24,7 +24,7 @@ void storcontact(AddressBook *addressBook)
 {   
     FILE *fptr;
     int i;
-    fptr = fopen("contact.csv","r");
+    fptr = fopen("contact store.csv","r");
     if(fptr==NULL)
     {
     perror("ERROR");
